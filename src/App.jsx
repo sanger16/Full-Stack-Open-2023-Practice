@@ -54,7 +54,7 @@ const App = () => {
   return (
   <>
     { clicks.left }
-    <Button handleClick={handleLeftClicks} text='left' />
+    <Button handleClick={handleLeftClicks} text='left' > </Button>
     <Button handleClick={handleRightClicks} text='right' />
     { clicks.right }
     <p>{allClicks.join(' ')}</p>
